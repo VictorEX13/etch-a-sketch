@@ -12,6 +12,10 @@ function createSquare() {
   container.appendChild(square);
 }
 
+function randomLightLevel() {
+  return Math.floor(Math.random() * 255);
+}
+
 function deleteGrid(element) {
   element.replaceChildren();
 }
