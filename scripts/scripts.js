@@ -6,7 +6,7 @@ function createSquare() {
   square.classList.add("square");
 
   square.addEventListener("mouseover", () => {
-    square.style.backgroundColor = "black";
+    square.style.backgroundColor = `rgb(${randomLightLevel()}, ${randomLightLevel()}, ${randomLightLevel()})`;
   });
 
   container.appendChild(square);
